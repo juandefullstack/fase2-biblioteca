@@ -8,5 +8,11 @@ public class Main {
 
         libro1.prestar();
         libro1.mostrarInfo();
+
+        Usuario u1 = new Usuario("Juan (estudiante)");
+        Usuario u2 = new Profesor("Ana (profesora)");
+
+        u1.mostrarInfo();
+        u2.mostrarInfo();
     }
 }
