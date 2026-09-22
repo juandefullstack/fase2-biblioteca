@@ -5,6 +5,10 @@ public class Usuario {
         this.nombre = nombre;
     }
 
+    public String getNombre() {
+    return nombre;
+}
+
     public int diasPrestamo() {
         return 15;
     }
